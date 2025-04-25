@@ -3,7 +3,7 @@
 int main(void){
     int number;
 
-    number=10;
+    number=8765;
 
     printf("number=%d\n",number);
     
