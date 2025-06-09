@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTMLの入れ子構造</title>
+  <style>
+    .box {
+      border: 2px solid #3498db;
+      margin: 10px;
+      padding: 10px;
+      background-color: #ecf5ff;
+    }
+    .box h2 {
+      margin: 0 0 10px 0;
+      font-size: 1em;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h2>&lt;html&gt;</h2>
+    <div class="box">
+      <h2>&lt;head&gt;</h2>
+      <div class="box">
+        <h2>&lt;title&gt;タイトル&lt;/title&gt;</h2>
+      </div>
+    </div>
+    <div class="box">
+      <h2>&lt;body&gt;</h2>
+      <div class="box">
+        <h2>&lt;h1&gt;見出し&lt;/h1&gt;</h2>
+      </div>
+      <div class="box">
+        <h2>&lt;p&gt;段落&lt;/p&gt;</h2>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
